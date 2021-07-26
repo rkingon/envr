@@ -1,0 +1,30 @@
+{
+	"name": "@rkingon/envr",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"bin": {
+		"envr": "./index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"format": "prettier --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rkingon/envr.git"
+	},
+	"author": "Roi Kingon",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rkingon/envr/issues"
+	},
+	"homepage": "https://github.com/rkingon/envr#readme",
+	"dependencies": {
+		"cross-spawn": "^7.0.3",
+		"dotenv-flow": "^3.2.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.3.2"
+	}
+}
